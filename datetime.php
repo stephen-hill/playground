@@ -17,5 +17,5 @@ var_dump
 var_dump
 (
 	"UTC",
-	new DateTime()
+	new DateTime('now', new DateTimeZone('UTC'))
 );
